@@ -17,4 +17,11 @@ def NOR(x,y):
     return NOT(OR(x,y))
 def NAND(x,y):
     return NOT(AND(x,y))
+def XOR(x,y):
+    if (x==0&y==0)|(x==1&y=1):
+        return 0
+    else:
+        return 1
+def XNOR(x,y):
+    return NOT(XOR(x,y)
 
