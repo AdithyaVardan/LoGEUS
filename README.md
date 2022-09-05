@@ -9,6 +9,7 @@
     -OR
     -NOT
     -NAND
+    -NOR
     -XNOR
     -XOR
-
+    
