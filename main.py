@@ -1,2 +1,2 @@
 import gates
-tt()
+gates.tt()
