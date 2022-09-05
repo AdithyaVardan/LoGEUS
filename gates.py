@@ -24,4 +24,10 @@ def XOR(x,y):
         return 1
 def XNOR(x,y):
     return NOT(XOR(x,y))
-
+def tt():
+    print("A     B     A      x'     Y'     O      A'     XO     O'     XO'")
+    for i in range(0,2):
+        for j in range(0,2):
+            print(i,"   ",j,"   ",AND(i,j),"    ",NOT(i),"    ",
+                    NOT(j),"    ",OR(i,j),"    ",NAND(i,j)
+                    ,"    ",XOR(i,j),"    ",NOR(i,j),"    ",XNOR(i,j))
